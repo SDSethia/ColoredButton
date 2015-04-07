@@ -8,7 +8,7 @@
  * Contributors:
  *     Laurent CARON (laurent.caron at gmail dot com) - Initial implementation and API
  *******************************************************************************/
-package colored.button;
+package colored.button.util;
 
 import java.io.IOException;
 import java.util.ArrayList;

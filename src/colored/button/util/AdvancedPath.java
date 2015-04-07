@@ -9,7 +9,7 @@
  * Waldimiro Rossi - addRoundRectangle and addCircle methods
  * Laurent CARON (laurent.caron at gmail dot com) - initial API and implementation
  *******************************************************************************/
-package colored.button;
+package colored.button.util;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.SWTException;

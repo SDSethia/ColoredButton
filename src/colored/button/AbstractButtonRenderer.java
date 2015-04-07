@@ -17,6 +17,9 @@ import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.graphics.Rectangle;
 import org.eclipse.swt.widgets.Display;
 
+import colored.button.util.AdvancedPath;
+import colored.button.util.SWTGraphicUtil;
+
 /**
  * This class is an abstract button renderer used for default, red, orange, green and purple themes
  */
