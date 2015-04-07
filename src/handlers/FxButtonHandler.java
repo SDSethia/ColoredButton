@@ -21,8 +21,6 @@ public class FxButtonHandler
 		final FXCanvas canvas = new FXCanvas(parent, SWT.NONE);
 		button = new Button();
 		button.setText("FxButton (1)");
-		button.setMinSize(500, Button.USE_PREF_SIZE);
-		button.setMinWidth(Button.USE_PREF_SIZE);
 		button.setStyle("-fx-background-color:#4e6c7a,linear-gradient(#86a5b5, #6b8b9a);");
 		final Scene scene = new Scene(button);
 		canvas.setScene(scene);
