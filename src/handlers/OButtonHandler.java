@@ -1,6 +1,5 @@
 package handlers;
 
-import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -17,7 +16,7 @@ public class OButtonHandler
 {
 	private OButton button;
 
-	@PostConstruct
+	@Inject
 	private void init(final Composite parent)
 	{
 		button = new OButton(parent, SWT.PUSH);
@@ -29,10 +28,9 @@ public class OButtonHandler
 
 	@Optional
 	@Inject
-	private void changeButtonStyle(@Named("SWITCH") final boolean patientContext)
+	private void changeButtonStyle(@Named("SWITCH") final boolean switchContext)
 	{
-
-		if (patientContext) {
+		if (switchContext) {
 			button.setButtonRenderer(AnyColorButtonRenderer.getInstance(222, 111, 111));
 			button.pack();
 		}

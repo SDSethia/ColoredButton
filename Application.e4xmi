@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_ZwCbMN0sEeSrZagP843Tzw" elementId="org.eclipse.e4.ide.application" bindingContexts="_ZwCbOd0sEeSrZagP843Tzw">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_ZwCbMd0sEeSrZagP843Tzw" label="ColorApp" width="500" height="400">
-    <trimBars xmi:id="_OZBDIN0tEeSrZagP843Tzw" elementId="colorapp.trimbar.0">
+    <trimBars xmi:id="_OZBDIN0tEeSrZagP843Tzw" elementId="colorapp.trimbar.main">
       <children xsi:type="menu:ToolControl" xmi:id="_PTzQYN0tEeSrZagP843Tzw" elementId="colorapp.toolcontrol.Obutton" contributionURI="bundleclass://ColorApp/handlers.OButtonHandler"/>
       <children xsi:type="menu:ToolControl" xmi:id="_Ni0lgN0uEeSrZagP843Tzw" elementId="colorapp.toolcontrol.FxButton" contributionURI="bundleclass://ColorApp/handlers.FxButtonHandler"/>
       <children xsi:type="menu:ToolControl" xmi:id="_QAMcUN0tEeSrZagP843Tzw" elementId="colorapp.toolcontrol.spacer" contributionURI="bundleclass://ColorApp/handlers.SpacerControl">
         <tags>stretch</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_WkmkgN0tEeSrZagP843Tzw" elementId="colorapp.toolbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_WkmkgN0tEeSrZagP843Tzw" elementId="colorapp.toolbar.right">
         <children xsi:type="menu:HandledToolItem" xmi:id="_XdOOkN0tEeSrZagP843Tzw" elementId="colorapp.handledtoolitem.switch" label="Switch" command="_jZ_bMN0wEeSrZagP843Tzw"/>
       </children>
     </trimBars>

@@ -3,7 +3,6 @@ package handlers;
 import javafx.embed.swt.FXCanvas;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -16,7 +15,7 @@ public class FxButtonHandler
 
 	private Button button;
 
-	@PostConstruct
+	@Inject
 	private void init(final Composite parent)
 	{
 		final FXCanvas canvas = new FXCanvas(parent, SWT.NONE);
@@ -32,10 +31,10 @@ public class FxButtonHandler
 
 	@Optional
 	@Inject
-	private void changeButtonStyle(@Named("SWITCH") final boolean patientContext)
+	private void changeButtonStyle(@Named("SWITCH") final boolean switchContext)
 	{
 
-		if (patientContext) {
+		if (switchContext) {
 			button.setStyle("-fx-background-color:#4e6c7a,linear-gradient(#86a5b5, #6b8b9a);");
 		}
 		else {
