@@ -11,6 +11,10 @@
                name="applicationCSS"
                value="platform:/plugin/ColorApp/css/default.css">
          </property>
+         <property
+               name="appName"
+               value="ColorApp">
+         </property>
       </product>
    </extension>
 
